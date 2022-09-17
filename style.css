@@ -137,15 +137,7 @@ header .navbar ul li a:hover{
 }
 
 
-header .follow a{
-    font-size: 2.5rem;
-    color:#fff;
-    margin:0 .7rem;
-}
 
-header .follow a:hover{
-    color:var(--main-color);
-}
 
 
 
@@ -238,6 +230,19 @@ header .follow a:hover{
     font-size: 2rem;
     color:#fff;
 }
+
+
+.about .follow a{
+    font-size: 2.5rem;
+    color:#fff;
+    margin:0 .7rem;
+}
+
+.about .follow a:hover{
+    color:var(--main-color);
+}
+
+
 .experience .box-container{
     display: flex;
     align-items: center;
