@@ -136,6 +136,19 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
+
+header .follow a{
+    font-size: 2.5rem;
+    color:#fff;
+    margin:0 .7rem;
+}
+
+header .follow a:hover{
+    color:var(--main-color);
+}
+
+
+
 #menu{
     position: fixed;
     top:2rem; right:2rem;
