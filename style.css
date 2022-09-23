@@ -137,10 +137,6 @@ header .navbar ul li a:hover{
 }
 
 
-
-
-
-
 #menu{
     position: fixed;
     top:2rem; right:2rem;
@@ -294,10 +290,6 @@ header .navbar ul li a:hover{
 }
 
 
-
-
-
-
 .education .box-container{
     display: flex;
     align-items: center;
@@ -349,8 +341,6 @@ header .navbar ul li a:hover{
 }
 
 
-
-
 .projects .box-container{
     display: flex;
     align-items: center;
@@ -358,8 +348,6 @@ header .navbar ul li a:hover{
     flex-wrap: wrap;
     padding:2rem 0;
 }
-
-
 
 .title h2{
 	color: white;
@@ -419,17 +407,6 @@ h5{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
-
---------------
-
-
-
-
-
-
-
-
-
 
 .contact .row{
     display: flex;
