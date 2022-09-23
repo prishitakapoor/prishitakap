@@ -373,7 +373,7 @@ header .navbar ul li a:hover{
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: yellow;
+	color: --yellow;
 
 }
 h5{
@@ -388,7 +388,7 @@ h5{
 	margin-bottom: 25px;
 }
 .card .button{
-	background-color:#f9004d;
+	background-color:--yellow;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
