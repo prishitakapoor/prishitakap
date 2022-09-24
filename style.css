@@ -340,6 +340,12 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
+.projects .box-container{
+    background: #101010
+    width: 100%;
+    padding: 100px 0px;
+    
+}
 
 .title h2{
 	color: white;
