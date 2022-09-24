@@ -342,10 +342,9 @@ header .navbar ul li a:hover{
 
 
 .projects .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    background: #101010
+    width: 100%;
+    padding: 100px 0px;
     padding: 100px 0px;
 }
 
