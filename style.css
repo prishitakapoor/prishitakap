@@ -340,23 +340,17 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
-
-.projects .box-container{
-    background: #101010
-    width: 100%;
-    padding: 100px 0px;
-    
+.service{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0px;
 }
-
 .title h2{
 	color: white;
 	font-size: 75px;
 	width: 1130px;
 	margin: 30px auto;
 	text-align: center;
-}
-
-
 }
 .box{
 	display: flex;
@@ -380,7 +374,7 @@ header .navbar ul li a:hover{
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: #f9ca24e;
+	color: #f9004d;
 
 }
 h5{
@@ -395,7 +389,7 @@ h5{
 	margin-bottom: 25px;
 }
 .card .button{
-	background-color: #f9004d;
+	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -409,6 +403,7 @@ h5{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
+
 
 .contact .row{
     display: flex;
