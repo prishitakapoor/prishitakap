@@ -1,238 +1,321 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Personal portfolio website design</title>
-	<!---custom css link--->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prishita Kapoor | Developer</title>
 
-	<link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+    
+<!-- header section starts  -->
 
-	<!---header--->
-	<header>
-		<a href="#" class="logo"><img src="img/logo.png"></a>
-		<div class="bx bx-menu" id="menu-icon"></div>
+<header>
 
-		<ul class="navbar">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About Me</a></li>
-			<li><a href="#services">Services</a></li>
-			<li><a href="#portfolio">My Portfolio</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</header>
+    <div class="user">
+        <img src="Me.jpg" alt="">
+        <h3 class="name">Prishita Kapoor</h3>
+        <p class="post">Software Developer</p>
+    </div>
 
-	<!---home--->
-	<section class="home" id="home">
-		<div class="home-text">
-			<h4>Hello</h4>
-			<h1>I'M TAhmid <br> Ha<span>mim</span></h1>
-			<h3>Front-End Developer</h3>
-			<a href="#" class="btn">Hire Me</a>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    
+    
+
+</header>
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>Hello !</h3>
+    <h1>I'm <span>Prishita Kapoor</span></h1>
+    <p>I like problem solving and gazing to be a part of a team which can help society to see the better tomorrow and I'm continually updating and enhancing my skills.
+    </p>
+    <!-- <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a> -->
+    <a href="https://drive.google.com/file/d/1mwMxyW8xbKGRqWRKNF28CDEY0ET8cCee/view?usp=sharing"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+    <p> My competitive programming journey so far:  <a href="https://leetcode.com/prishitakapoor/"><button class="btn"> Leetcode<i class="fas fa"></i> </button></a>  <a href="https://www.stopstalk.com/user/profile/PrishitaKapoor"><button class="btn"> StopStalk <i class="fas fa"></i> </button></a>
+    
+        
+     <div class="follow">
+        <a href="https://github.com/prishitakapoor" class="fab fa-github"></a>
+        <a href="https://twitter.com/kapoor_prishita" class="fab fa-twitter"></a>
+        <a href="https://prishitakapoor2.medium.com/" class="fab fa-medium"></a>
+        <a href="https://www.linkedin.com/in/prishitakapoor/" class="fab fa-linkedin"></a>
+    </div>
+  
+</section>
+
+
+   
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>ABOUT ME</span> </h1>
+
+<div class="row">
+
+    <div class="info">
+  <h3> <span> <p>I'm a Electronics and Communication Graduate with 1.5 years of industrial experience a Software Developer. I have also worked on various capstone projects involving different languages such as Python, HTML, CSS, JavaScript and machine learning algorithms. I am passionate about developing complex applications that solve real-world problems impacting millions of users.
+    </p> </span> </h3>
+        <h3> <span> language : </span> Java, HTML, Python, Javacript, CSS, PHP </h3>
+        <h3> <span> Databases : </span> MySQL, PostgreSQL </h3>
+        <h3> <span> libraries : </span> Numpy, Pandas, CV </h3>
+        <h3> <span> Framework : </span> React.js, Node.js, Django, Flask </h3>
+        <h3> <span> Tools : </span> AWS(Basics) </h3>
+        
+       <h3> <span> <p> Apart from organizational roles, I'm a Volunteer at Children Welfare Centre‐GOONJ, Crew member of Cognizance(Dream,Explore and Innovate), Coordinator of Spoural(Sports and Cultural Fest), State Level Basketball & Handball Player and won prize amount too, District level Table Tennis Player. </p> </span> </h3>
+    </div>
+    
+
+    
+
+</div>
+
+</section>
+
+<!-- experience section starts  -->
+<section class="experience" id="experience">
+<h1 class="heading"> <span>EXPERIENCE </span></h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="content">
+        <i class="fas fa-circle"></i>  
+        <span> Jan 2022 - Aug 2022</span>
+        <h3>VINAYAKA AGENCIES</h3>
+        <h2 style="color:white;">DEVELOPER</h2>
+        
+        <p>
+            •  A software for extracting data such as contact numbers, addresses,and various other details of leads from B2B portal, IndiaMart for digital marketing and to boost the business.
+            </p>
+        <p>
+            • Also, created a database of orders from multiple social media platforms.
+         </p>
+        
+      </div>
+   </div>
+
+
+   <div class="box">
+        <div class="content">
+        <i class="fas fa-circle"></i>      
+        <span>Dec 2021- Aug 2022</span>
+        <h3>ISRO</h3>
+        <h2 style="color:white;">SOFTWARE DEVELOPER</h2>
+        <p>
+            • Preprocessed and data visualizations the historical satellite & buoys data to predict future ocean parameters using MySQL, Python, Docker and machine learning algorithms.
+         </p>
+         <p>
+            • Built data pipelines with Kafka, Hive for real-time dashboards.
+         </p>
+          <p>
+            • Added a bulk upload feature which reduced the manual work of adding products into a database.
+          </p>
+      </div>
+   </div>
+   
+   
+   <div class="box">
+        <div class="content">
+        <i class="fas fa-circle"></i>  
+        <span>Dec 2021- Aug 2022</span>
+        <h3>SHREE ENTERPRISE</h3>
+        <h2 style="color:white;">SOFTWARE DEVELOPER</h2>
+        <p>
+            • Developed a responsive Shree Enterprise website an online electronics store using HTML,CSS and BootStrap at the front-end and
+JavaScript at the Back-end.
+         </p>
+         
+      
+      </div>
+   </div>
+   
+   
+   <div class="box">
+        <div class="content">
+        <i class="fas fa-circle"></i>  
+        <span>Dec 2021- Aug 2022</span>
+        <h3>EXPERTSHUB</h3>
+        <h2 style="color:white;">PROJECT INTERN</h2>
+         <p>
+            • Built Weather Monitoring and Real Time Alert System using Raspberry Pi, ESP 32, UBIDOTS, Firebase, MIT App, HTML5, Bootstrap & TensorFlow.
+
+         </p>
+        
+      </div>
+   </div>
+    
+    
+
+ 
+
+</div>
+</section>
+
+
+<!-- education section starts  -->
+<section class="education" id="education">
+<h1 class="heading"> <span>EDUCATION</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2017 - 2021</span>
+        <h3>Bachelor of Technology in ECE</h3>
+        <p>Course work:</p>
+    </div>
+    
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2017 - 2021</span>
+        <h3>Grad 12th</h3>
+        <p>Course work:</p>
+    </div>
+    
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2017 - 2021</span>
+        <h3>Grad 10th</h3>
+        <p>Course work:</p>
+    </div>
+
+</div>
+
+</section>
+
+
+ 
+
+<!-- projects section starts  -->
+
+
+<section class="projects" id="projects">
+
+<h1 class="heading"> <span>PROJECTS</span> </h1>
+
+<div class="box-container">
+<div class="service">
+		<div class="title">
+			<h2>Our Ser</h2>
 		</div>
-	</section>
 
-	<!---about--->
-	<section class="about" id="about">
-		<div class="about-img">
-			<img src="img/about.png">
-		</div>
+    <div class="box"> 
+    <div class="card">
+	<i class="fas fa-bars"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
-		<div class="about-text">
-			<h2>About Me</h2>
-			<h4>Hi, Im Here To Help Your Next Project</h4>
-			<p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s, When An .ac porta sem turpis quis leo. Nulla in feugiat elit.</p>
-			<div class="about-gri">
-				<div class="about-in">
-					<h5>1. Problem Solving</h5>
+					<p style="text-align: center;">
+						<a class="button" href="#">GitHub</a>
+					</p>
 				</div>
+			</div>
 
-				<div class="about-in">
-					<h5>2. Creative Idea</h5>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">GitHub</a>
+					</p>
 				</div>
-
-				<div class="about-in">
-					<h5>3. Search a lot</h5>
-				</div>
-
-				<div class="about-in">
-					<h5>4. High Quality</h5>
-				</div>
-
-			</div>
-			<a href="#" class="btn">Contact Me</a>
-		</div>
-	</section>
-
-	<!---services--->
-	<section class="services" id="services">
-		<div class="main-text">
-			<h2>My Services</h2>
-			<h4>Better Design, Better Expericences</h4>
-		</div>
-
-		<div class="services-content">
-			<div class="box">
-				<img src="img/serv1.png">
-				<h3>Mobile App Design</h3>
-				<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
-			</div>
-
-			<div class="box">
-				<img src="img/serv2.png">
-				<h3>Website Design</h3>
-				<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
-			</div>
-
-			<div class="box">
-				<img src="img/serv3.png">
-				<h3>Video Editing</h3>
-				<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
-			</div>
-
-		</div>
-	</section>
-
-	<!---portfolio--->
-	<section class="portfolio" id="portfolio">
-		<div class="main-text">
-			<h2>My Portfolio</h2>
-			<h4>Some Of My Distinguished Works</h4>
-		</div>
-
-		<div class="portfolio-content">
-			<div class="row">
-				<img src="img/portfolio1.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
-
-			<div class="row">
-				<img src="img/portfolio2.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
-
-			<div class="row">
-				<img src="img/portfolio3.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
-
-			<div class="row">
-				<img src="img/portfolio4.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
-
-			<div class="row">
-				<img src="img/portfolio5.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
-
-			<div class="row">
-				<img src="img/portfolio6.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
-
-		</div>
-	</section>
-
-	<!---contact--->
-	<section class="contact" id="contact">
-		<div class="contact-text">
-			<h2>Contact Me</h2>
-			<h4>Let's Work Together</h4>
-			<p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry</p>
-			<div class="contact-list">
-				<li><a href="#">Mansoura - Dakhalia - Egyp</a></li>
-				<li><a href="#">admin@example.com</a></li>
-				<li><a href="#">01646895741</a></li>
-			</div>
-			<div class="contact-icons">
-				<a href="#"><i class='bx bxl-linkedin' ></i></a>
-				<a href="#"><i class='bx bxl-facebook' ></i></a>
-				<a href="#"><i class='bx bxl-behance' ></i></a>
-				<a href="#"><i class='bx bxl-instagram' ></i></a>
-				<a href="#"><i class='bx bxl-dribbble' ></i></a>
 			</div>
 		</div>
+	
 
-		<div class="contact-form">
-			<form action="">
-				<input type="" placeholder="Enter Your Name" required>
-				<input type="email" placeholder="Enter Your Email" required>
-				<input type="" placeholder="Enter Your Subject">
-				<textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
-				<input type="submit" value="Submit" class="send">
-			</form>
-		</div>
-	</section>
+</div>
 
-	<div class="last-text">
-		<p>Developed with love by Tahmid Hamim © 2022</p>
-	</div>
+</section>
 
-	<!---scroll-top--->
-	<a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
 
-	<script src="https://unpkg.com/scrollreveal"></script>
 
-	<!---custom js link--->
-	<script type="text/javascript" src="js/script.js"></script>
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>CONTACT</span> </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> prishitakapoor9@gmail.com </h3>
+            <h3> <i class="fas fa-phone"></i> +91-8511113631 </h3>
+            <h3> <i class="fas fa-map-marker-alt"></i>Ahmedabad, Gujarat</h3>
+        </div>
+
+    </div>
+
+    <form action="">
+
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="text" placeholder="project" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+    </form>
+
+</div>
+
+</section>
+
+
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
 
 </body>
-</html>
